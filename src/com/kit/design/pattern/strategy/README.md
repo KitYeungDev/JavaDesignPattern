@@ -4,3 +4,4 @@ In computer programming, the strategy pattern (also known as the policy pattern)
 - defines a family of algorithms
 - encapsulates each algorithm
 - makes the algorithms interchangeable within that family
+---
