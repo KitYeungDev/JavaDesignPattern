@@ -1,0 +1,19 @@
+package com.kit.design.pattern.factory.method;
+
+/**
+ * Created by chent on 2017/9/24.
+ */
+public class ChicagoStyleCheesePizza extends Pizza {
+    public ChicagoStyleCheesePizza() {
+        name = "Chicago Style Deep Dish Cheese Pizza";
+        dough = "Extra Thick Crust Dough";
+        sauce = "Plum Tomato Sauce";
+
+        toppings.add("Shredded Mozzarella Cheese");
+    }
+
+    @Override
+    void cut() {
+        System.out.println("Cutting the pizza into square slices");
+    }
+}
